@@ -30,3 +30,28 @@ Un livre est composé des champs suivants :
  - `author_id`  : L'identifiant de l'auteur du livre
  
 Toutes les informations permettant l'exécution et l'utilisation du projet sont disponibles dans le fichier `README.txt` disponible dans le dossier `CockRoachDB`.
+
+#### Exemple 2 : NuoDB
+
+Le premier exemple utilise la base de données `NuoDB`.
+
+Le projet est une API permettant de gérer des joueurs appartenant à des équipes de foot simplifiée.
+
+Elle est composée de deux tables, les équipes (`teams`) et les joueurs (`players`).
+
+Un joueur n'est associé qu'à une seule équipe, mais une équipe peut être associée à plusieurs joueurs différents.
+
+Une équipe est composé des champs suivants :
+
+ - `id`         : L'identifiant de l'équipe
+ - `name`       : Le nom de l'équipe
+ - `players`    : Liste des joueurs de l'équipe
+ 
+Un joueur est composé des champs suivants :
+
+ - `id` : L'identifiant du joueur
+ - `FirstName`  : Le prénom du joueur
+ - `LastName`   : Le nom de du joueur
+ - `team`       : L'équipe dans laquelle le joueur joue
+ 
+Toutes les informations permettant l'exécution et l'utilisation du projet sont disponibles dans le fichier `README.txt` disponible dans le dossier `TestDeNuoDB`.
