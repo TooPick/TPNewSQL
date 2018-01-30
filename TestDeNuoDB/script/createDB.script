@@ -1,0 +1,2 @@
+start process sm database foot host localhost archive foot
+start process te database foot host localhost options '--dba-user dba --dba-password pass'
