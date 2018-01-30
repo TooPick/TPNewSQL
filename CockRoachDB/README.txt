@@ -16,7 +16,12 @@ Dans un terminal entrez :
 
 Laisser ce service tourner en tâche de fond pour que la base de données reste connectée.
 
-###############################################################################################
+-----------------------------
+ AJOUTER UN NOEUD AU CLUSTER
+-----------------------------
+
+Afin d'ajouter un autre noeud au cluster, il faut exécuter la commande suivante :
+:> cockroach start --insecure --store=books-db-2 --host=localhost --port=26258 --http-port=8081 --join=localhost:26257
 
 ---------------------
  CREATION D'UNE BASE
