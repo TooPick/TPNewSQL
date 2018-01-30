@@ -1,3 +1,12 @@
+-----------
+ PREREQUIS
+-----------
+
+Vous devez installer CockroachDB afin de pouvoir exécuter certaines commandes nécessaires au fonctionnement du projet.
+Pour cela veuillez suivre les consignes disponibles sur le site suivant (une explication pour chaque système d'exploitation est disponible).
+
+https://www.cockroachlabs.com/docs/stable/install-cockroachdb.html
+
 -----------------------------
  DEMARRER LA BASE DE DONNEES
 -----------------------------
@@ -5,7 +14,7 @@
 Dans un terminal entrez :
 :> cockroach start --insecure --store=books-db --host=localhost
 
-Laisser ce service touner en tâche de fond pour que la base de données reste connectée.
+Laisser ce service tourner en tâche de fond pour que la base de données reste connectée.
 
 ###############################################################################################
 
@@ -33,7 +42,7 @@ Pour build le projet, dans un terminal entrez :
 Pour exécuter le projet entrez :
 :> java -jar build/libs/demoCockroachBD-0.0.1-SNAPSHOT.jar
 
-Le projet est maintenant lancé et accéssible via l'URL : http://localhost:8090
+Le projet est maintenant lancé et accessible via l'URL : http://localhost:8090
 Vous pouvez tester les URLs suivante avec un logiciel tel que Postman par exemple.
 
 # AUTEURS
