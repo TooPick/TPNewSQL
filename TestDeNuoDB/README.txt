@@ -31,6 +31,20 @@ Votre base est remplie.
 
 ###############################################################################################
 
+-----------------------------
+ AJOUTER UN NOEUD AU CLUSTER
+-----------------------------
+
+Afin d'ajouter un autre noeud au cluster (hostaname2 étant l'adresse de la machine et si besoin ai le numéro du port), il faut exécuter la commande suivante :
+:> nuodbmgr --broker <hostname2> --password pass
+
+Le manager de nuodb s'ouvre et il suffit d'exécuter les deux commande suivante :
+:> start process sm database foot host <hostname2> archive foot
+:> start process te database foot host <hostname2>
+
+Puis de quitter le manager 
+:> quit
+
 ------------------
  LANCER LE PROJET
 ------------------
